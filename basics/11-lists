@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -a -l /basics -a -al /shell -a -l /root
+ls /root -a -l /shell/basics
