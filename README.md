@@ -30,6 +30,7 @@ The shell is **a command line interpreter.** It can also execute other programs 
     * `cp *.html` copies all files ending with `.html`.
     * `cp [A-Z]*` copies all files which name start with an uppercase letter.
         * `*` matches one or more character, including no character.
+
     cp options | Functions
     ----------------  |  ------------
     `cp -r` | copy files/directories recursively.
