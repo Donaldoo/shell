@@ -1,4 +1,4 @@
-# Shell
+hell
 
 The shell is **a command line interpreter.** It can also execute other programs such as applications, scripts, and user programs (written in c or the shell programming language).
 
@@ -27,15 +27,14 @@ The shell is **a command line interpreter.** It can also execute other programs 
 
 
 * `cp` command is used to copy files from the current directory to another directory.
-    * `cp *.html` copies all files ending with `.html`.
-    * `cp [A-Z]*` copies all files which name start with an uppercase letter.
-        * `*` matches one or more character, including no character.
-
     cp options | Functions
     ----------------  |  ------------
     `cp -r` | copy files/directories recursively.
     `cp -u` | copy only when the SOURCE file is newer than the destination file or when the destination file is missing.
-
+    * `cp *.html` copies all files ending with `.html`.
+    * `cp [A-Z]*` copies all files which name start with an uppercase letter.
+        * `*` matches one or more character, including no character.
+   
 
 * `mv` command is mainly used to move files, but it's also used to rename files.
    * `mv file1.txt /root/school` (moves `file1` to `school` directory).
