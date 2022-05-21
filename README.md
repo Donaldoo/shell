@@ -1,4 +1,4 @@
-hell
+# Shell
 
 The shell is **a command line interpreter.** It can also execute other programs such as applications, scripts, and user programs (written in c or the shell programming language).
 
