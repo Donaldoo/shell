@@ -1,5 +1,7 @@
 # Shell
 
+![Shell](https://www.linuxtechi.com/wp-content/uploads/2018/08/Functions-Linux-Shell-Script.jpg)
+
 The shell is **a command line interpreter.** It can also execute other programs such as applications, scripts, and user programs (written in c or the shell programming language).
 
 ## Repositories created for this project:
