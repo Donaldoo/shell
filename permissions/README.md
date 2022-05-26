@@ -4,7 +4,7 @@ To view file rights use command `ls -l file_name`.
 
 ## Commands used in this project:
 
-* `id -un` command is used to print the effective username of the current user.
+* `id` command is used to print the effective username of the current user.
 
 
 * `group` command is used to list the groups a user belongs to.
