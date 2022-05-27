@@ -37,7 +37,7 @@ Variables are in uppercase characters by convention. There are two types of vari
 
 
 ### [*The alias Command*](http://www.linfo.org/alias.html)
-The alias command makes it possible to launch any command or group of commands (separated by ;) options, by entering a pre-set string.
+The alias command makes it possible to launch any command or group of commands (separated by ";") options, by entering a pre-set string.
 `alias p="pwd"` - create alias p for command pwd.
 `unalias` - removes aliases previously set with the alias command.
 
