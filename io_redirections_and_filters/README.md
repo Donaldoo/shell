@@ -1,5 +1,5 @@
 # I/O Redirections and filters.
-### Input/Output Redirections "<" ">"
+### *Input/Output Redirections* "<" ">"
 Commands accept input from a facility called *standard input* which by default is the keyboard, but it can be redirected. To redirect standart input we use the character "**<**".
 Command line programs send their results to a facility called *standard output* which by default is the terminal, but just like standard input it can be redirected. To redirect standard output we use the character "**>**".
 
