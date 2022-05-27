@@ -1,15 +1,15 @@
 # I/O Redirections and filters.
 ### *Input/Output Redirections* "<" ">"
-Commands accept input from a facility called *standard input* which by default is the keyboard, but it can be redirected. To redirect standart input we use the character "**<**".
-Command line programs send their results to a facility called *standard output* which by default is the terminal, but just like standard input it can be redirected. To redirect standard output we use the character "**>**".
+Commands accept input from a facility called ***standard input*** which by default is the keyboard, but it can be redirected. To redirect standart input we use the character "**<**".
+Command line programs send their results to a facility called ***standard output*** which by default is the terminal, but just like standard input it can be redirected. To redirect standard output we use the character "**>**".
 
 
 ### *Pipelines* "|"
-To connect two commands together we use *pipelines*. With pipelines the standard output of the first command becomes the input for the next command.
+To connect two commands together we use ***pipelines***. With pipelines the standard output of the first command becomes the input for the next command.
 
 
 ### *Filters*
-*Filters* are programs that take the text from a file or produced by another format as their standard input, transform it to a meaningful format and then returns it as standard output.
+***Filters*** are programs that take the text from a file or produced by another format as their standard input, transform it to a meaningful format and then returns it as standard output.
 Used filters in this project are:
 * `cat`: Displays the text of a file line by line.
 
