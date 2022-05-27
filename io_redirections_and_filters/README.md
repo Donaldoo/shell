@@ -4,11 +4,11 @@ Commands accept input from a facility called *standard input* which by default i
 Command line programs send their results to a facility called *standard output* which by default is the terminal, but just like standard input it can be redirected. To redirect standard output we use the character "**>**".
 
 
-### Pipelines "|"
+### *Pipelines* "|"
 To connect two commands together we use *pipelines*. With pipelines the standard output of the first command becomes the input for the next command.
 
 
-### Filters
+### *Filters*
 *Filters* are programs that take the text from a file or produced by another format as their standard input, transform it to a meaningful format and then returns it as standard output.
 Used filters in this project are:
 * `cat`: Displays the text of a file line by line.
@@ -72,7 +72,7 @@ grep options | functions
 * `rev`: This command is used to reverse the lines characterwise.
 
 
-### Special characters
+### *Special characters*
 Special characters are characters that do not have a literal meaning. They carry special instructions.
 
 Character | Description
@@ -86,6 +86,6 @@ Character | Description
 ; | *Command separator* - used to separate multiple commands that are on the same line.
 ~ | "Tilde" - home directory.
 
-### Some combinations of commands used in this project:
+### *Some combinations of commands used in this project:*
 * [.gif](https://github.com/Donaldoo/shell/blob/main/io_redirections_and_filters/24-gifs) - Lists all regular files (including hidden files) with a `.gif` extension in the current directory and all its sub-directories (one file per line). File names are displayed without their extensions. Files are sorted by byte values, but case-insensitive.
 * [The biggest fan](https://github.com/Donaldoo/shell/blob/main/io_redirections_and_filters/26-the_biggest_fan) - Parses web servers logs in TSV format as input and displays the 11 hosts or IP addresses which did the most requests. Most active IP (host) should be displayed at the top.
