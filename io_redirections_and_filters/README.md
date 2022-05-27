@@ -84,7 +84,7 @@ Character | Description
 &#35; | *Comment* - notes of explanation, not processed by the shell.
 &#124; | *Pipe* - send the output from one command to the input of another command.
 ; | *Command separator* - used to separate multiple commands that are on the same line.
-~ | "Tilde" - home directory.
+~ | *Tilde* - home directory.
 
 ### *Some combinations of commands used in this project:*
 * [.gif](https://github.com/Donaldoo/shell/blob/main/io_redirections_and_filters/24-gifs) - Lists all regular files (including hidden files) with a `.gif` extension in the current directory and all its sub-directories (one file per line). File names are displayed without their extensions. Files are sorted by byte values, but case-insensitive.
