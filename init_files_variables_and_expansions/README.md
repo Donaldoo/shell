@@ -21,15 +21,12 @@ One of the parameter expansion capabilities has to do with the system's ability 
 Command substitution allows us to use the output of a command as an expansion.
 
 
-### Quoting
+#### *Quoting*
 The shell provides a mechanism called *quoting* to selectively suppress unwanted expansions.
 
-* *Double Quotes*
-      All the special characters inside double quotes used by the shell lose their special meaning and are treated as ordinary characters.
-* *Single Quotes*
-      Suppress all expansions inside single quotes.
-* *Escaping Characters*
-      We use escaping (backslash) to eliminate the special meaning of a character in a filename.
+* *Double Quotes* - All the special characters inside double quotes used by the shell lose their special meaning and are treated as ordinary characters.
+* *Single Quotes* - Suppress all expansions inside single quotes.
+* *Escaping Characters* - We use escaping (backslash) to eliminate the special meaning of a character in a filename.
 
 
 
