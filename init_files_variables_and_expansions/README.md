@@ -1,7 +1,7 @@
 # Init files, variables and expansions
 
 ### *Init files*
-* `/etc/profile` file and `/etc/profile directory are *shell initialization files* that contain instructions that set shell variables such as PATH, USER, MAIL, HOSTNAME and HISTSIZE.
+* `/etc/profile` file and `/etc/profile` directory are *shell initialization files* that contain instructions that set shell variables such as PATH, USER, MAIL, HOSTNAME and HISTSIZE.
 * `/etc/profile.d` contains files configuring system-wide behavior of specific programs.
 * `~/.bashrc` is a shell script that Bash runs whenever it is started.
 
