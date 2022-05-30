@@ -1,6 +1,0 @@
-#!/usr/bin/env bash
-# Display in list format after first dash
-for i in *
-do
-echo "$i" | cut -d '-' -f 2
-done
