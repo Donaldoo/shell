@@ -1,10 +1,9 @@
 #!/usr/bin/env bash
 # Display text 10 times using while loop
-
 i=0
 while [ $i -le 9 ]
 do
-    
-echo "best School"
+
+    echo "Best School"
 ((x++))
 done
