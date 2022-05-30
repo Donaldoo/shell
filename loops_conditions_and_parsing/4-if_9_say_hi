@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # 9th iteration display Best School then Hi
 i=o
-while [ i <= 9 ]
+while [ i < 10 ]
 do
 if (( i != 8 ))
 then
