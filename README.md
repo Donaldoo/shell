@@ -9,3 +9,4 @@ The shell is **a command line interpreter.** It can also execute other programs 
 * [Permissions (chmod, chown and chgrp commands)](https://github.com/Donaldoo/shell/tree/main/permissions)
 * [Input / Output Redirection](https://github.com/Donaldoo/shell/tree/main/io_redirections_and_filters)
 * [Init files, variables and expansions](https://github.com/Donaldoo/shell/tree/main/init_files_variables_and_expansions)
+* [Loops,conditions and parsing] (loops_conditions_and_parsing)
