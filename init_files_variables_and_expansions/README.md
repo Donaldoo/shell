@@ -1,51 +1,59 @@
 # Init files, variables and expansions
+
+### *Init files*
+* `/etc/profile` file and `/etc/profile` directory are *shell initialization files* that contain instructions that set shell variables such as PATH, USER, MAIL, HOSTNAME and HISTSIZE.
+* `/etc/profile.d` contains files configuring system-wide behavior of specific programs.
+* `~/.bashrc` is a shell script that Bash runs whenever it is started.
+
 ### [*Expansion*](http://linuxcommand.org/lc3_lts0080.php)
 Every time we type a command in the terminal, bash performs several processes upon the text before it carries out our command. The process that makes a simple character sequence have a lot of meaning to the shell is called ***expansion***.
 * **Pathname Expansion**
-The mechanism by which *wildcards* work is called pathname expansion.
+The mechanism by which *wildcards* work is called pathname expansion. `echo *`
 * **Tilde Expansion**
-When tilde character (~) is used at the beginning of a word, it expands into the name of the home directory of the named user (if no user is named, prints name of the directory of the current user).
+When tilde character (~) is used at the beginning of a word, it expands into the name of the home directory of the named user (if no user is named, prints name of the directory of the current user). `echo ~user`
 * **Arithmetic Expansion**
 Arithmetic expansion can be used to perform simple integer arithmetic operations, and uses the form `$((expression))`
 * **Brace Expansion**
-With brace expansion we can create multiple text strings from a pattern containing braces. The brace expression may contain either a comma-separated list of strings, or a range of integers or single characters.
+With brace expansion we can create multiple text strings from a pattern containing braces. The brace expression may contain either a comma-separated list of strings, or a range of integers or single characters. `echo Front-{A, B, C}-back`;</br> `echo number_{1..3}`
 * **Parameter Expansion**
 One of the parameter expansion capabilities has to do with the system's ability to store variables and to give each variable a name.
 * **Command Substitution**
 Command substitution allows us to use the output of a command as an expansion.
-* **Quoting**
+
+
+#### *Quoting*
 The shell provides a mechanism called *quoting* to selectively suppress unwanted expansions.
-  
-  * *Double Quotes*
-      All the special characters inside double quotes used by the shell lose their special meaning and are treated as ordinary characters.
-  * *Single Quotes*
-      Suppress all expansions inside single quotes.
-  * *Escaping Characters*
-      We use escaping (backslash) to eliminate the special meaning of a character in a filename.
+
+* *Double Quotes* - All the special characters inside double quotes used by the shell lose their special meaning and are treated as ordinary characters.
+* *Single Quotes* - Suppress all expansions inside single quotes.
+* *Escaping Characters* - We use escaping (backslash) to eliminate the special meaning of a character in a filename.
 
 
 
 ### [*Variables*](https://tldp.org/LDP/Bash-Beginners-Guide/html/sect_03_02.html)
 Variables are in uppercase characters by convention. There are two types of variables:
-* **Global variables** (Global variables or environment variables are available in all shells) 
-`export NAME="value"` - create a new global/environment variable.
-`printenv` - display environment variables.
-`set` - displays and sets the names and values of environment variables.
-`unset` -  remove the variable from the list of variables that shell tracks.
-* **Local variables** (Local variables are only available in the current shell)
+
+* **Global variables** (Global variables or environment variables are available in all shells) <br />
+`export NAME="value"` - create a new global/environment variable. <br />
+`printenv` - display environment variables. <br />
+`set` - displays and sets the names and values of environment variables. <br />
+`unset` -  remove the variable from the list of variables that shell tracks. <br />
+
+* **Local variables** (Local variables are only available in the current shell) <br />
 `NAME="value"` - create a new local variable.
+
+* **Reserved variables** (BASH uses certain variables that have a reserved specific meaning)
 
 
 ### [*The alias Command*](http://www.linfo.org/alias.html)
-The alias command makes it possible to launch any command or group of commands (separated by ";") options, by entering a pre-set string.
-`alias p="pwd"` - create alias p for command pwd.
+The alias command makes it possible to launch any command or group of commands (separated by ";") options, by entering a pre-set string. <br />
+`alias p="pwd"` - create alias p for command pwd. <br />
 `unalias` - removes aliases previously set with the alias command.
 
 
 
 #### *Other commands used in this project:*
-`printf` - is used to display the given string, number or any other format specifier on the terminal window.
-
+`printf` - is used to display the given string, number or any other format specifier on the terminal window. <br />
 `source` - is used to read and execute the content of a file, passed as an argument in the current shell script.
 
 
