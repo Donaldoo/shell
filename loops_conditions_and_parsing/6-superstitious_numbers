@@ -2,8 +2,8 @@
 # display 4 and then bad luck from china
 # display 9 then bad luck from Japan
 # display 17 and then bad luck from Italy
-i=1
-while (( i <= 20 ))
+i=0
+while (( i <= 19 ))
 do
 echo "$i"
 case $i
