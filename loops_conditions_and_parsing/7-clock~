@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+# Clock
+h=0
+m=1
+while (( h <= 12 ))
+do
+echo "$h"
+while (( m <= 59 ))
+do echo "$m"
+((m++))
+((h++))
+done
