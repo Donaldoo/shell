@@ -4,13 +4,13 @@
 # when the number is multiple of 3 display Fizz
 # when the number is multiple of 5 display Buzz
 
-for [[ i=1; i<=100; i++ ]]
+for (( i=1; i<=100; i++ ))
 do
-if [[ i % 3 == 0 ]] -a [[ i % 5 == 0 ]]; then
+if [[ i%3==0 ]] && [[ i%5==0 ]]; then
 echo "FizzBuzz"
-elif [[ i % 3 == 0 ]]; then
+elif [[ i%3==0 ]]; then
 echo "Fizz"
-elif [[ i % 5 == 0 ]]; then
+elif [[ i%5==0 ]]; then
 echo "Buzz"
 else
 echo $i
