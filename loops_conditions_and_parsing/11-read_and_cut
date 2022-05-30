@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+# Display the content of a file, only username, user ID and home directory path
+
+while read i
+do
+cut -d ':' -f1,3,6
+echo $i
+done < /etc/passwd
