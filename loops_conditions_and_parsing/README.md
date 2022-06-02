@@ -1,11 +1,13 @@
 # Shell, loops conditions and parsing
 #### Scripts using loops and conditions, some used for parsing through text.
 
-- [0-RSA_public_key.pub](https://github.com/Donaldoo/shell/blob/main/loops_conditions_and_parsing/0-RSA_public_key.pub) 
-- [1-for_best_school](https://github.com/Donaldoo/shell/tree/main/loops_conditions_and_parsing) This script is displaying "Best School" 10 times using for loop.
-- [2-while_best_school](https://github.com/Donaldoo/shell/blob/main/loops_conditions_and_parsing/2-while_best_school) This script is displaying "Best School" 10 times using while loop.
+111 | 1111
+--- | ------
+[0-RSA_public_key.pub](https://github.com/Donaldoo/shell/blob/main/loops_conditions_and_parsing/0-RSA_public_key.pub) |
+[1-for_best_school](https://github.com/Donaldoo/shell/tree/main/loops_conditions_and_parsing) | This script is displaying "Best School" 10 times using for loop.
+- [2-while_best_school](https://github.com/Donaldoo/shell/blob/main/loops_conditions_and_parsing/2-while_best_school) | This script is displaying "Best School" 10 times using while loop.
 - [3-until_best_school](https://github.com/Donaldoo/shell/blob/main/loops_conditions_and_parsing/3-until_best_school) This script is displaying "Best School" 10 times using until loop.
-- [4-if_9_say_hi](https://github.com/Donaldoo/shell/blob/main/loops_conditions_and_parsing/4-if_9_say_hi) This script is displaying "Best School" 10 times, but for the 9th iteration, displays Best School and then Hi on a new line.
+- [4-if_9_say_hi](https://github.com/Donaldoo/shell/blob/main/loops_conditions_and_parsing/4-if_9_say_hi) - This script is displaying "Best School" 10 times, but for the 9th iteration, displays Best School and then Hi on a new line.
 - [5-4_bad_luck_8_is_your_chance](https://github.com/Donaldoo/shell/blob/main/loops_conditions_and_parsing/5-4_bad_luck_8_is_your_chance) This script is displaying "bad luck" for the 4th loop, "good luck" for the 8th loop and "Best School" for any other loop.
 - [6-superstitious_numbers](https://github.com/Donaldoo/shell/blob/main/loops_conditions_and_parsing/6-superstitious_numbers) his script displays "bad luck from china" in the 4th loop, "bad luck from japan" in the 9th loop, "bad luck from italy" in the 17th loop, and numbers for any other loop until the number 20
 - [7-clock](https://github.com/Donaldoo/shell/blob/main/loops_conditions_and_parsing/7-clock) Script that displays hours from 0 to 12 and minutes from 1 to 59.
