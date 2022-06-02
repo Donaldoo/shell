@@ -10,3 +10,4 @@ The shell is **a command line interpreter.** It can also execute other programs 
 * [Input / Output Redirection](https://github.com/Donaldoo/shell/tree/main/io_redirections_and_filters)
 * [Init files, variables and expansions](https://github.com/Donaldoo/shell/tree/main/init_files_variables_and_expansions)
 * [Loops,conditions and parsing](https://github.com/Donaldoo/shell/tree/main/loops_conditions_and_parsing)
+* [Processes and signals](https://github.com/Donaldoo/shell/tree/main/processes_and_signals)
