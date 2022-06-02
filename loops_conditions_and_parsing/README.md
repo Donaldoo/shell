@@ -50,7 +50,7 @@ Integer comparision | String comparision | Arithmetic operators
 **>=**  is greater than or equal to - (("$a" >= "$b")) | 
 
 
-#### *Scripts using loops and conditions, some used for parsing through text.*
+#### *Scripts using loops, conditions and parsing*
 
 - [1-for_best_school]([https://github.com/Donaldoo/shell/tree/main/loops_conditions_and_parsing](https://github.com/Donaldoo/shell/blob/main/loops_conditions_and_parsing/1-for_best_school)) - Script that displays `Best School` 10 times using `for` loop.
 - [2-while_best_school](https://github.com/Donaldoo/shell/blob/main/loops_conditions_and_parsing/2-while_best_school) - Script that displays `Best School` 10 times using `while` loop.
