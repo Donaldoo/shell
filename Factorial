@@ -4,7 +4,6 @@
 echo "Enter the number to calculate its factorial"
 
 # Read the number
-
 read n
 
 p=1
