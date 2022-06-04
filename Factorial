@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+# Script that computes the factorial of a number
+
+echo "Enter the number to calculate its factorial"
+
+# Read the number
+
+read n
+
+p=1
+for ((i=2;i<=n;i++)); do
+    p=$((p * i))
+done
+echo $p

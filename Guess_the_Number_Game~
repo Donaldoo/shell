@@ -1,0 +1,20 @@
+#!/usr/bin/env bash
+# find the secret number and print the number of guesses it took to find it
+
+biggest=10000	  # maximum number possible
+guess=0		  # guessed by player
+guesses=0	  # number of guesses made
+number=$(($$ % $biggest))     # random number, between 1 and $biggest
+
+while [ $guess -ne $number ]
+do
+    echo "Guess"; read guess
+    if [ "$guess" -gt $number ]; then
+	echo "Our secret number is smaller"
+    elif [ "$guess" -lt $number ]; then
+	echo "Our secret number is bigger"
+    fi
+    guesses=$(($guesses + 1))
+done
+echo "Correct! You guessed $number in $guesses guesses."
+	
